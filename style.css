@@ -179,4 +179,58 @@ main {
     text-align: right;
     grid-area: 1/ 2/ 2/ 3;
  }
+
+/*price area */
+
+.div5_price img {
+    max-width: 15px;
+}
+
+.div6_remaining {
+    color: #777777;
+    text-align: right;
+    grid-area: 3/ 2/ 4/ 3;    
+}
+
+/* NFT area end */
+
+/* Ladies*/
+
+hr {
+    padding: 0;
+    margin-top: 0;
+    width: 100%;
+    border-top: 1px solid #ffffff;
+}
+
+.banner2_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner2_container p {
+    color: #555555;
+    padding-bottom: 40px;
+}
+
+.banner2_container h1 {
+    font-weight: bold;
+}
+
+.banner2_image {
+    width: 45vh;
+    display: flex;
+    justify-content: center;
+}
  
+/* 2nd banner start, green lady's end */
+
+.footer_logos a img {
+    filter: invert(89%) sepia(0%) saturate(4350%) hue-rotate(334deg) brightness(72%) contrast(62%);
+}
+
+
+
+
+
