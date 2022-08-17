@@ -41,3 +41,47 @@ body {
     justify-content: space-between;
 }
 
+.header_content {
+    padding-right: 45px;
+}
+.purple_snowman {
+    width: 75%;
+    overflow: hidden;
+}
+
+.purple_snowman img {
+    width: 50vw;
+    max-width: 600px;
+    position: absolute;
+    right: 30px;
+    overflow: hidden;
+    float: right;
+}
+
+.pink_bold {
+    color: #ff3998;
+    font-weight: bold;
+    font-size: smaller;
+}
+
+.header_content p {
+    color: #555555;
+    margin-bottom: 40px;
+}
+
+.middle_header h1 {
+    font-weight: bold;
+    font-size: 96px;
+    margin: 5px auto;
+}
+
+.sign_up {
+    font-weight: bold;
+    padding: 15px 35px;
+    text-decoration: none;
+    background: linear-gradient(#fff, #fff) padding-box,
+    linear-gradient(45deg, rgb(245, 90, 1), rgba(37, 250, 200, 0.770)) border-box;
+    border: 3px solid transparent;
+    border-radius: 45px;
+}
+
