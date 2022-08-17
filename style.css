@@ -185,8 +185,16 @@ main {
     grid-area: 1/ 2/ 2/ 3;
  }
 
-/*price area */
-
+.div5_price {
+    font-size: larger;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: right;
+  
+    grid-area: 2 / 2 / 3 / 3;
+  }
 .div5_price img {
     max-width: 15px;
 }
@@ -368,6 +376,7 @@ footer a {
         .all_NFT_container {padding-top: 10px;}
         .banner2_container {padding: 0 0px 0 10px}
         .banner2_text {align-self: flex-start;}
+        
           .banner2_image {
             width: 70vh;
             display: flex;
