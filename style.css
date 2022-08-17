@@ -1,14 +1,14 @@
 body {
-    width: 80vw;
+    width: 90vw;
     margin: 0 auto;
-    padding-top: 45px;
-    font-family: 'Times New Roman', Times, serif;
+    padding-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
     
 }
 
 /*headerio pradzia */
 .top_header {
-    margin: auto;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -16,22 +16,22 @@ body {
 
 .top_header nav a {
     text-decoration: none;
-    padding-left: 10vw;
+    padding-left: 15vw;
     font-style: normal;
-    font-size: 15px;
+    font-size: 20px;
     line-height: 100%;
-    color: #555566;
+    color: #555555;
 }
 
 .header {
-    margin: auto;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .top_header nav a:nth-last-of-type(1) {
-    color: #ff3999;
+    color: #ff3998;
 }
 
 .middle_header {
@@ -42,10 +42,10 @@ body {
 }
 
 .header_content {
-    padding-right: 45px;
+    padding-right: 50px;
 }
 .purple_snowman {
-    width: 75%;
+    width: 80%;
     overflow: hidden;
 }
 
@@ -82,9 +82,9 @@ body {
     padding: 15px 35px;
     text-decoration: none;
     background: linear-gradient(#fff, #fff) padding-box,
-    linear-gradient(45deg, rgb(245, 90, 1), rgba(37, 250, 200, 0.770)) border-box;
+    linear-gradient(45deg, rgb(245, 90, 0), rgba(37, 255, 205, 0.772)) border-box;
     border: 3px solid transparent;
-    border-radius: 45px;
+    border-radius: 50px;
 }
 main {
     display: flex;
@@ -96,15 +96,19 @@ main {
     background-color: #cccccc;
     background-size: cover;
     border-radius: 15px;
-    padding: 65px 0px 20px 40px;
+    padding: 70px 0px 25px 40px;
     margin-top: 150px;
-    margin-bottom: 65px;
+    margin-bottom: 70px;
+}
+
+.company_logos img {
+    max-width: 100px;
 }
 
 .company_logos {
     padding: 0 10px;
     margin-bottom: 50px;
-    width: 90%;
+    width: 95%;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
@@ -112,6 +116,7 @@ main {
     justify-content: space-between;
 }
 
+/*nft section*/ 
 .nft_shop p {
     width: 90%;
     color: #555555;
@@ -149,8 +154,8 @@ main {
     width: 290px;
     padding: 10px;
     display: grid;
-    grid-template-columns: repeat(2, 1fr) repeat(2,0);
-    grid-template-rows: repeat(2, 1fr) repeat(2, 0);
+    grid-template-columns: repeat(2, 1fr) repeat(3,0);
+    grid-template-rows: repeat(3, 1fr) repeat(2, 0);
     grid-column-gap: 0px;
     grid-row-gap: 5px;
 }
@@ -227,7 +232,7 @@ hr {
 /* 2nd banner start, green lady's end */
 
 .footer_logos a img {
-    filter: invert(89%) sepia(0%) saturate(4350%) hue-rotate(334deg) brightness(72%) contrast(62%);
+    filter: invert(89%) sepia(0%) saturate(4355%) hue-rotate(334deg) brightness(73%) contrast(62%);
 }
 .footer_top {
     padding-top: 40px;
@@ -279,9 +284,7 @@ footer a {
     display: none;
 }
 
-@media only screen and (max-width: 600px) {} 
-    /* Burger added */
-
+@media only screen and (max-width: 600px) { 
     .top_header nav img {
       width: 20px;
       display: flex;
@@ -372,7 +375,7 @@ footer a {
             overflow: hidden;
             position: relative;
           }
-          .purple_snowman img{
+          .purple_snowman img {
             width: 45vh;
             display: flex;
             justify-content: flex-start;
