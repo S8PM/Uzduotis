@@ -328,4 +328,57 @@ footer a {
         flex-basis: 40%;
         justify-items: flex-start;
     }
-    
+
+    .nav_container div:nth-of-type(even) {
+        flex-basis: 40%;
+        justify-items: flex-start;
+    }
+    .nav_container div {
+        padding-top: 15px;
+    }
+
+    /* wrap end*/
+
+    body,
+    html,
+    header {
+        width: 100%;
+    }
+    header {
+        width: 100%;
+    }
+    .top_header {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .middle_header {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .banner {border-radius: 0px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        margin-bottom: 20px;}
+        .header_content h1 {font-size: xx-large;}
+        .company_logos {margin-bottom: 10px;}
+        .all_NFT_container {padding-top: 10px;}
+        .banner2_container {padding: 0 0px 0 10px}
+        .banner2_text {align-self: flex-start;}
+          .banner2_image {
+            width: 70vh;
+            display: flex;
+            justify-content: flex-start;
+            overflow: hidden;
+            position: relative;
+          }
+          .purple_snowman img{
+            width: 45vh;
+            display: flex;
+            justify-content: flex-start;
+            overflow: hidden;
+            position: absolute;
+            float: none;
+            right: -120px;
+            bottom: 200px;
+          }
