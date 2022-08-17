@@ -11,4 +11,33 @@ body {
     margin: auto;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
+
+.top_header nav a {
+    text-decoration: none;
+    padding-left: 10vw;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 100%;
+    color: #555566;
+}
+
+.header {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top_header nav a:nth-last-of-type(1) {
+    color: #ff3999;
+}
+
+.middle_header {
+    padding-top: 80px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
