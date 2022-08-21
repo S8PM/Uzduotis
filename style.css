@@ -48,7 +48,6 @@ body {
 }
 .purple_snowman {
     width: 80%;
-    overflow: hidden;
 }
 
 .purple_snowman img {
@@ -69,6 +68,18 @@ body {
 .header_content p {
     color: #555555;
     margin-bottom: 40px;
+}
+
+.header_content {
+    position: relative;
+}
+
+.purple_snowman {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 768px;
+    height: 769px;
 }
 
 .middle_header h1 {
@@ -295,7 +306,7 @@ footer a {
     display: none;
 }
 
-@media only screen and (max-width: 600px) { 
+@media only screen and (min-width: 600px) { 
     .top_header nav img {
       width: 20px;
       display: flex;
