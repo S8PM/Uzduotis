@@ -302,6 +302,7 @@ footer a {
       filter: invert(89%) sepia(0%) saturate(4355%) hue-rotate(334deg)
         brightness(75%) contrast(63%);
     }
+}
     .top_header nav a:not(:nth-of-type(1)) {
       display: none;
     }
